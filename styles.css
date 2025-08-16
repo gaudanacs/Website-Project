@@ -1,0 +1,66 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color:#5A1414;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 45%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel {
+    display: inline-flex;
+}
+
+.left-arrow {
+    float: left;
+    display:inline-flex;
+    height: 48px;
+    width: 48px;
+    background-color: transparent;
+}
+
+.right-arrow {
+    float: right;
+    display:inline-flex;
+    height: 48px;
+    width: 48px;
+    background-color: transparent;
+}
+
+.carousel-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
