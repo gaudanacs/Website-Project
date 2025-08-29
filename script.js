@@ -7,19 +7,19 @@ function forward() {
         i=0;
     }
     if(i===0) {
-        carousel.setAttribute('src', 'Commanders Merch/JD5Jersey.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Mens/JD5Jersey.avif');
     }
     if(i===1) {
-        carousel.setAttribute('src', 'Commanders Merch/JD5AlternateJersey.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Mens/JD5AlternateJersey.avif');
     }
     if(i===2) {
-        carousel.setAttribute('src', 'Commanders Merch/CommandersPolo.avif');    
+        carousel.setAttribute('src', 'Commanders Merch/Mens/CommandersPolo.avif');    
     }
     if(i===3) {
-        carousel.setAttribute('src', 'Commanders Merch/Hoodie.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Unisex/Hoodie.avif');
     }
     if(i===4) {
-        carousel.setAttribute('src', 'Commanders Merch/LongSleeve.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Unisex/LongSleeve.avif');
     }
 }
 
@@ -29,18 +29,18 @@ function backward() {
         i=4;
     }
     if(i===0) {
-        carousel.setAttribute('src', 'Commanders Merch/JD5Jersey.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Mens/JD5Jersey.avif');
     }
     if(i===1) {
-        carousel.setAttribute('src', 'Commanders Merch/JD5AlternateJersey.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Mens/JD5AlternateJersey.avif');
     }
     if(i===2) {
-        carousel.setAttribute('src', 'Commanders Merch/CommandersPolo.avif');    
+        carousel.setAttribute('src', 'Commanders Merch/Mens/CommandersPolo.avif');    
     }
     if(i===3) {
-        carousel.setAttribute('src', 'Commanders Merch/Hoodie.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Unisex/Hoodie.avif');
     }
     if(i===4) {
-        carousel.setAttribute('src', 'Commanders Merch/LongSleeve.avif');
+        carousel.setAttribute('src', 'Commanders Merch/Unisex/LongSleeve.avif');
     }
 }
