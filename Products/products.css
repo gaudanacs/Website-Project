@@ -28,6 +28,8 @@ h2 {
     box-sizing: border-box;
     gap: 10px;
     white-space: nowrap;
+    top:0;
+    position: sticky;
 }
 
 .logo {
@@ -50,11 +52,23 @@ h2 {
     width: 25%;
     display: block;
     border-right: 4px solid grey;
+    top: 50px;
+    position: sticky;
 }
 
 table {
-    width: 70%;
+    width: auto;
     border-collapse: collapse;
+    overflow-y: auto;
+}
+
+td {
+    white-space: no-wrap;
+}
+
+.product-img {
+    height:275px;
+    width: auto;
 }
 
 html, body {
