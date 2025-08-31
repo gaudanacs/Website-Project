@@ -84,6 +84,7 @@ td {
 
 .description, .price {
     margin-top: 4px;
+    color: black;
 }
 
 td:hover .product-img {
@@ -100,9 +101,40 @@ td:hover {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 html, body {
     margin: 0;
+}
+
+.oswald-light {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+label {
+    font-size: 1.4em;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-filters {
+    background-color: transparent;
+    height:50px;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 1.4em;
+    border: 2px solid black;
+}
+
+.reset-filters:hover {
+    cursor: pointer;
 }

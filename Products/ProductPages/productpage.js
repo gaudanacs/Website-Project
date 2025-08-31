@@ -26,4 +26,6 @@ function addToCart(productName) {
     cart.push(cartItem);
 
     document.cookie = "cart=" + JSON.stringify(cart) + "; path=/;";
+
+    alert("Added to Cart! Check your cart now.");
 }

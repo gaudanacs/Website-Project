@@ -39,3 +39,13 @@ function filtering() {
         });
     }
 }
+
+function reset() {
+    document.querySelectorAll(".mens-apparel, .womens-apparel, .childrens-apparel, .unisex-apparel").forEach(element => {
+        element.style.display = "";
+    });
+
+    document.querySelectorAll("input[type='radio']").forEach(radio => {
+        radio.checked = false;
+    });
+}

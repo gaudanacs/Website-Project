@@ -37,8 +37,6 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
-    display: flex;
-    flex-direction: column;
 }
 
 .oswald-text {
@@ -50,9 +48,35 @@ body {
   margin-top: 5px;
 }
 
+.page-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
 
 .inter-text {
   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.oswald-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oswald-light {
+  font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
@@ -72,4 +96,70 @@ body {
 #cartContainer {
     width: 60%;
     height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.checkout {
+    width: 40%;
+    display:inline-block;
+    height: calc(100vh - 50px);
+    vertical-align: top;
+    border-left: 2px solid black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.items, .tax, .discount {
+    font-size: 1.8em;
+}
+
+.totalcost {
+    font-size: 2em;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.checkout-button, .clear-cart {
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 2em;
+}
+
+.checkout-button:hover, .clear-cart:hover {
+    cursor: pointer;
+}
+
+.checkout-button {
+    background-color: #5A1414;
+    border: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.clear-cart {
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.namespace {
+    width: 80%;
+    height: auto;
+    margin-top: 45px;
 }
