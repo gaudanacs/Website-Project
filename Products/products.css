@@ -87,12 +87,15 @@ td {
 }
 
 td:hover .product-img {
-    height: 196px;
-    width: auto;
+    transform: scale(1.07);
 }
 
 td:hover .price, td:hover .description {
     color:#5A1414;
+}
+
+td:hover {
+    cursor: pointer;
 }
 
 a {
