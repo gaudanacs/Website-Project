@@ -5,7 +5,7 @@ function viewcart() {
         cart = JSON.parse(document.cookie.split("=")[1]);
     }
 
-    if (cart.length === 0) {
+    if (cart.length == 0) {
         alert("Your cart is empty");
     } else {
         let message = "";
@@ -14,7 +14,7 @@ function viewcart() {
             message += `Product: ${item.product}, Size: ${item.itemsize}, Quantity: ${item.amount}\n`;
         }
         alert(message);
-    }
+    } 
 }
 
 function clearCart() {
